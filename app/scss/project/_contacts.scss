@@ -43,9 +43,16 @@
 }
 
 .main-section__cnt_right {
-  flex: 0 0 430px;
+  flex: 0;
+  width: 0;
+  height: 0;
   margin-left: 15px;
-  height: calc(100% - 22px);
+  overflow: hidden;
+  &.js-show-card {
+    flex: 0 0 430px;
+    height: calc(100% - 22px);
+    overflow: visible;
+  }
 }
 
 .lnv-contact-card {

@@ -692,10 +692,18 @@ a {
 
 .main-section__cnt_right {
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 430px;
-  flex: 0 0 430px;
+  -ms-flex: 0;
+  flex: 0;
+  width: 0;
+  height: 0;
   margin-left: 15px;
-  height: calc(100% - 22px); }
+  overflow: hidden; }
+  .main-section__cnt_right.js-show-card {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 430px;
+    flex: 0 0 430px;
+    height: calc(100% - 22px);
+    overflow: visible; }
 
 .lnv-contact-card {
   position: relative;
