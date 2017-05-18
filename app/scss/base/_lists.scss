@@ -39,6 +39,15 @@
       color: $text-link-color;
     }
   }
+  .lnv-list_items-action & {
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      .lnv-list__item-primary-content {
+        color: $text-link-color;
+      }
+    }
+  }
 
   & .lnv-list__item-secondary-content {
     display: flex;

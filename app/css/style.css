@@ -557,6 +557,10 @@ body {
       margin-right: 16px; }
   .lnv-list__item._active .lnv-list__item-primary-content {
     color: #2196f3; }
+  .lnv-list_items-action .lnv-list__item:hover, .lnv-list_items-action .lnv-list__item:focus {
+    cursor: pointer; }
+    .lnv-list_items-action .lnv-list__item:hover .lnv-list__item-primary-content, .lnv-list_items-action .lnv-list__item:focus .lnv-list__item-primary-content {
+      color: #2196f3; }
   .lnv-list__item .lnv-list__item-secondary-content {
     display: -webkit-box;
     display: -ms-flexbox;
