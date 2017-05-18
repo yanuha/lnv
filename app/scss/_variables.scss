@@ -1,0 +1,73 @@
+$icomoon-font-path: "../fonts/LNV/fonts";
+
+// ==========  TYPOGRAPHY  ==========
+
+$preferred_font: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+
+$font-size-base: 14px;
+$line-height-base: 1.5;
+
+
+// ==========  LIST   ==========
+
+$list-border: 8px;
+$list-min-height: 48px;
+$list-min-padding: 16px;
+$list-bottom-padding: 20px;
+$list-avatar-text-left-distance: 72px;
+$list-icon-text-left-distance: 72px;
+
+$list-avatar-size: 40px;
+$list-icon-size: 20px;
+
+$contact-list-min-padding-vertical: 13px;
+
+// ==========  Color  ==========
+
+$main-bg: #eeeeee;
+
+
+$primary: #2196f3;
+$warning: #ff3e81;
+$text-color-primary: #4d4d4e;
+$text-link-color: $primary;
+$list-main-text-text-color: #4d4d4e;
+$list-supporting-text-text-color: #999999;
+$list-icon-color: #7d7d7d;
+$list-avatar-color: #7d7d7d;
+
+
+$button-secondary-color: #ddd;
+
+
+$button-hover-color: $button-secondary-color;
+$button-focus-color: $button-secondary-color;
+$button-active-color: $button-secondary-color;
+
+$button-rounded-font-size: 14px;
+$button-rounded-size: 34px;
+$button-primary-color: $warning;
+$button-primary-text-color: #fff;
+
+$button-rounded-font-size-lg: 18px;
+$button-rounded-size-lg: 56px;
+
+
+$border-radius-base: 2px;
+$box-shadow-base: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+
+// ==========  buttons  ==========
+
+
+$button-min-width: 64px !default;
+$button-height: 36px !default;
+$button-padding: 16px !default;
+$button-margin: 4px !default;
+$button-border-radius: 2px !default;
+
+$button-fab-size: 56px !default;
+$button-fab-size-mini: 40px !default;
+$button-fab-font-size: 24px !default;
+
+$button-icon-size: 32px !default;
+$button-icon-size-mini: 24px !default;

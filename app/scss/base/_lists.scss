@@ -1,0 +1,100 @@
+.lnv-list {
+  display: block;
+  padding: $list-border 0;
+  list-style: none;
+}
+
+.lnv-list__item {
+  @include typo-subhead();
+  line-height: 1;
+  display: flex;
+  min-height: $list-min-height;
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: $list-min-padding;
+  cursor: default;
+  color: $list-main-text-text-color;
+  overflow: hidden;
+
+  & .lnv-list__item-primary-content {
+    order: 0;
+    flex-grow: 2;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+
+    & .lnv-list__item-icon {
+      margin-right: $list-icon-text-left-distance - $list-icon-size - $list-min-padding;
+    }
+
+    & .lnv-list__item-avatar {
+      margin-right: $list-avatar-text-left-distance - $list-avatar-size - $list-min-padding;
+    }
+  }
+  &._active {
+    .lnv-list__item-primary-content {
+      color: $text-link-color;
+    }
+  }
+
+  & .lnv-list__item-secondary-content {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    margin-left: $list-min-padding;
+
+    & .lnv-list__item-secondary-action label { display: inline; }
+    & .lnv-list__item-secondary-info {
+      @include typo-caption();
+      color: $list-supporting-text-text-color;
+    }
+    & .lnv-list__item-sub-header {
+      padding: 0 0 0 $list-min-padding;
+    }
+  }
+  & .lnv-list__item-sub-title {
+    line-height: 18px;
+    color: $list-supporting-text-text-color;
+    display: block;
+    padding: 0;
+  }
+}
+
+.lnv-list__item-secondary-action {
+  font-size: $list-icon-size;
+  line-height: 1;
+  color: $list-icon-color;
+  &:hover {
+    color: $warning;
+  }
+}
+
+.lnv-list__item_some-line {
+  & .lnv-list__item-primary-content {
+    line-height: 1.5;
+    display: block;
+  }
+}
+
+.lnv-list__item-icon,
+.lnv-list__item-icon.material-icons {
+  height: $list-icon-size;
+  width: $list-icon-size;
+  font-size: $list-icon-size;
+  box-sizing: border-box;
+  color: $list-icon-color;
+}
+
+.lnv-list__item-avatar,
+.lnv-list__item-avatar.material-icons {
+  height: $list-avatar-size;
+  width: $list-avatar-size;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: $list-icon-color;
+  font-size: $list-avatar-size;
+  color: $list-avatar-color;
+}

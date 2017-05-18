@@ -1,0 +1,17 @@
+.dropdown {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.dropdown__label {
+  flex-grow: 1;
+}
+
+.dropdown__btn {
+  padding: 5px;
+  font-size: 10px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}

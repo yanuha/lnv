@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'LNV';
+  src:
+    url('fonts/LNV.ttf?uxqr1c') format('truetype'),
+    url('fonts/LNV.woff?uxqr1c') format('woff'),
+    url('fonts/LNV.svg?uxqr1c#LNV') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="lnv-i-"], [class*=" lnv-i-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'LNV' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lnv-i-star:before {
+  content: "\e900";
+}
+.lnv-i-send-2:before {
+  content: "\e901";
+}
+.lnv-i-refresh:before {
+  content: "\e902";
+}
+.lnv-i-place:before {
+  content: "\e903";
+}
+.lnv-i-menu:before {
+  content: "\e904";
+}
+.lnv-i-more-vert:before {
+  content: "\e905";
+}
+.lnv-i-hangout:before {
+  content: "\e906";
+}
+.lnv-i-forum:before {
+  content: "\e907";
+}
+.lnv-i-flag:before {
+  content: "\e908";
+}
+.lnv-i-done-2:before {
+  content: "\e909";
+}
+.lnv-i-email:before {
+  content: "\e90a";
+}
+.lnv-i-create:before {
+  content: "\e90b";
+}
+.lnv-i-delete-3:before {
+  content: "\e90c";
+}
+.lnv-i-call:before {
+  content: "\e90d";
+}
+.lnv-i-arrow-dropdown:before {
+  content: "\e90e";
+}
+.lnv-i-archive-2:before {
+  content: "\e90f";
+}
+.lnv-i-arrow-back:before {
+  content: "\e910";
+}
+.lnv-i-access-time:before {
+  content: "\e911";
+}

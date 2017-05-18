@@ -1,0 +1,26 @@
+include ../helpers/_mixins
+
+doctype html
+
+html(lang='en')
+  include ../blocks/_head
+  body
+    .layout-main-w.main-w.js-layout-main-w.active-sidebar
+      .layout-sidebar-w
+        include  ../blocks/_sidebar
+      // Page Content
+      .layout-cnt-w
+        // inner Header
+        header.layout-main-header
+          include ../blocks/_header
+        // end inner Header
+
+        // main-content
+        main.layout-main-cnt
+            block content
+        // end main-content
+
+      // #page-content-wrapper
+    // #wrapper
+
+    block modals

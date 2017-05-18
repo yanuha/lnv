@@ -1,0 +1,31 @@
+/* Typography */
+
+@mixin typo-preferred-font($usePreferred: true) {
+  @if $usePreferred {
+    font-family: $preferred_font;
+  }
+}
+
+@mixin typo-subhead($colorContrast: false, $usePreferred: true) {
+  @include typo-preferred-font($usePreferred);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+
+  @if $colorContrast {
+    opacity: 0.87;
+  }
+}
+
+@mixin typo-caption($colorContrast: false, $usePreferred: false) {
+  @include typo-preferred-font($usePreferred);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+
+  @if $colorContrast {
+    opacity: 0.54;
+  }
+}

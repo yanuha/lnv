@@ -1,0 +1,38 @@
+.sidebar-header {
+  min-height: 150px;
+  background: url('../img/toolbar.jpg') center center no-repeat;
+  background-size: cover;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-header__avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.sidebar-nav {
+  border: solid 1px #cccccc;
+  flex: 1;
+}
+
+.sidebar-list-icon {
+  .lnv-list__item-primary-content {
+    color: $text-color-primary;
+    &:hover {
+      color: $text-link-color;
+    }
+  }
+  .lnv-list__item {
+    &._active {
+      color: $text-link-color;
+    }
+  }
+}
+
+.sidebar-header__nav {
+  margin-top: auto;
+  color: #fff;
+}

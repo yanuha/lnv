@@ -1,0 +1,143 @@
+section.main-section._contacts-section
+  .main-section__cnt.main-section__cnt_center
+    .main-section__cnt-scr
+      .contacts-list-group-w
+        .contacts-list-group.contacts-list-group_favorite
+          .contacts-list-group__symbol.text-warning
+            i.lnv-i-star
+          .contacts-list-group__cnt
+            .contacts-list.lnv-list
+              .lnv-list__item._active
+                span.lnv-list__item-primary-content
+                  img(src="img-back/avatar.png", alt="").lnv-list__item-avatar
+                  span Beverly Armstrong
+              .lnv-list__item
+                span.lnv-list__item-primary-content
+                  img(src="img-back/oval-23.png", alt="").lnv-list__item-avatar
+                  span Carolyn Campbell
+              .lnv-list__item
+                span.lnv-list__item-primary-content
+                  img(src="img-back/oval-24.png", alt="").lnv-list__item-avatar
+                  span James Connors
+
+        hr.contacts-list-group__hr
+        .contacts-list-group.contacts-list-group_other
+          .contacts-list-group__symbol.text-warning A
+          .contacts-list-group__cnt
+            .contacts-list.lnv-list
+              .lnv-list__item
+                span.lnv-list__item-primary-content
+                  img(src="img-back/avatar.png", alt="").lnv-list__item-avatar
+                  span Beverly Armstrong
+              .lnv-list__item
+                span.lnv-list__item-primary-content
+                  img(src="img-back/oval-23.png", alt="").lnv-list__item-avatar
+                  span Carolyn Campbell
+              .lnv-list__item
+                span.lnv-list__item-primary-content
+                  img(src="img-back/oval-24.png", alt="").lnv-list__item-avatar
+                  span James Connors
+
+        hr.contacts-list-group__hr
+        .contacts-list-group.contacts-list-group_other
+          .contacts-list-group__symbol.text-warning B
+          .contacts-list-group__cnt
+            .contacts-list.lnv-list
+              - for (var x = 0; x < 2; x++)
+                .lnv-list__item
+                  span.lnv-list__item-primary-content
+                    img(src="img-back/oval-23.png", alt="").lnv-list__item-avatar
+                    span Carolyn Campbell
+                .lnv-list__item
+                  span.lnv-list__item-primary-content
+                    img(src="img-back/oval-24.png", alt="").lnv-list__item-avatar
+                    span James Connors
+
+        hr.contacts-list-group__hr
+        .contacts-list-group.contacts-list-group_other
+          .contacts-list-group__symbol.text-warning C
+          .contacts-list-group__cnt
+            .contacts-list.lnv-list
+              - for (var x = 0; x < 3; x++)
+                .lnv-list__item
+                  span.lnv-list__item-primary-content
+                    img(src="img-back/oval-23.png", alt="").lnv-list__item-avatar
+                    span Carolyn Campbell
+                .lnv-list__item
+                  span.lnv-list__item-primary-content
+                    img(src="img-back/oval-24.png", alt="").lnv-list__item-avatar
+                    span James Connors
+
+
+  .main-section__cnt.main-section__cnt_right.js-lnv-contact-card-wr
+    .lnv-contact-card
+      .main-section__cnt-scr
+        .lnv-card__menu
+          button.lnv-btn.lnv-btn_tr
+            i.lnv-i-arrow-back
+          span.layout-spacer
+          button.lnv-btn.lnv-btn_tr
+            i.lnv-i-create
+          button.lnv-btn.lnv-btn_tr
+            i.lnv-i-more-vert
+        .lnv-card__title
+          img(src="img-back/rectangle-97.png", alt="").lnv-card__img
+          h2.lnv-card__title-text James Connors
+        .lnv-card__supporting-text
+          .contacts-list-group-w
+            .contacts-list-group.contacts-list-group_favorite
+              .contacts-list-group__symbol.text-primary
+                i.lnv-i-call
+              .contacts-list-group__cnt
+                .contacts-list.lnv-list.lnv-list__item_some-line
+                  .lnv-list__item
+                    span.lnv-list__item-primary-content
+                      span (650) 555-1234
+                      span.lnv-list__item-sub-title Mobile
+                    a.lnv-list__item-secondary-action(href='#')
+                      i.lnv-i-hangout
+                  .lnv-list__item
+                    span.lnv-list__item-primary-content
+                      span (323) 555-6789
+                      span.lnv-list__item-sub-title Work
+                    a.lnv-list__item-secondary-action(href='#')
+                      i.lnv-i-hangout
+
+            hr.contacts-list-group__hr
+            .contacts-list-group.contacts-list-group_other
+              .contacts-list-group__symbol.text-primary
+                i.lnv-i-email
+              .contacts-list-group__cnt
+                .contacts-list.lnv-list.lnv-list__item_some-line
+                  .lnv-list__item
+                    span.lnv-list__item-primary-content
+                      span aliconnors@example.com
+                      span.lnv-list__item-sub-title Personal
+                  .lnv-list__item
+                    span.lnv-list__item-primary-content
+                      span ali_connors@example.com
+                      span.lnv-list__item-sub-title Work
+
+            hr.contacts-list-group__hr
+            .contacts-list-group.contacts-list-group_other
+              .contacts-list-group__symbol.text-primary
+                i.lnv-i-place
+              .contacts-list-group__cnt
+                .contacts-list.lnv-list.lnv-list__item_some-line
+                  .lnv-list__item
+                    span.lnv-list__item-primary-content
+                      span 2000 SW 1st Ave
+                        br
+                        | San Francisco, CA 94112
+                      span.lnv-list__item-sub-title Home
+                  .lnv-list__item
+                    span.lnv-list__item-primary-content
+                      span 1600 Amphitheatre Pkwy
+                        br
+                        | Mountain View, CA 94043
+                      span.lnv-list__item-sub-title Work
+
+
+      .lnv-contact-card__actions
+        a.lnv-btn.lnv-btn_rounded.lnv-btn_colored.lnv-btn_lg
+          i.lnv-i-create

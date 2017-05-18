@@ -1,0 +1,118 @@
+@import "variables";
+
+@font-face {
+  font-family: 'LNV';
+  src:
+    url('#{$icomoon-font-path}/LNV.ttf?uxqr1c') format('truetype'),
+    url('#{$icomoon-font-path}/LNV.woff?uxqr1c') format('woff'),
+    url('#{$icomoon-font-path}/LNV.svg?uxqr1c#LNV') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="lnv-i-"], [class*=" lnv-i-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'LNV' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lnv-i-star {
+  &:before {
+    content: $lnv-i-star;
+  }
+}
+.lnv-i-send-2 {
+  &:before {
+    content: $lnv-i-send-2;
+  }
+}
+.lnv-i-refresh {
+  &:before {
+    content: $lnv-i-refresh;
+  }
+}
+.lnv-i-place {
+  &:before {
+    content: $lnv-i-place;
+  }
+}
+.lnv-i-menu {
+  &:before {
+    content: $lnv-i-menu;
+  }
+}
+.lnv-i-more-vert {
+  &:before {
+    content: $lnv-i-more-vert;
+  }
+}
+.lnv-i-hangout {
+  &:before {
+    content: $lnv-i-hangout;
+  }
+}
+.lnv-i-forum {
+  &:before {
+    content: $lnv-i-forum;
+  }
+}
+.lnv-i-flag {
+  &:before {
+    content: $lnv-i-flag;
+  }
+}
+.lnv-i-done-2 {
+  &:before {
+    content: $lnv-i-done-2;
+  }
+}
+.lnv-i-email {
+  &:before {
+    content: $lnv-i-email;
+  }
+}
+.lnv-i-create {
+  &:before {
+    content: $lnv-i-create;
+  }
+}
+.lnv-i-delete-3 {
+  &:before {
+    content: $lnv-i-delete-3;
+  }
+}
+.lnv-i-call {
+  &:before {
+    content: $lnv-i-call;
+  }
+}
+.lnv-i-arrow-dropdown {
+  &:before {
+    content: $lnv-i-arrow-dropdown;
+  }
+}
+.lnv-i-archive-2 {
+  &:before {
+    content: $lnv-i-archive-2;
+  }
+}
+.lnv-i-arrow-back {
+  &:before {
+    content: $lnv-i-arrow-back;
+  }
+}
+.lnv-i-access-time {
+  &:before {
+    content: $lnv-i-access-time;
+  }
+}
+

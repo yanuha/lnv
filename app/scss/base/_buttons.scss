@@ -1,0 +1,93 @@
+.lnv-btn {
+  background: transparent;
+  border: none;
+  border-radius: $button-border-radius;
+  color: $button-secondary-color;
+  position: relative;
+  height: $button-height;
+  margin: 0;
+  min-width: $button-min-width;
+  padding: 0 $button-padding;
+  display: inline-block;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: $button-height;
+  vertical-align: middle;
+  position: relative;
+
+  &::-moz-focus-inner {
+    border: 0;
+  }
+
+  &:hover {
+    background-color: $button-hover-color;
+  }
+
+  &:focus:not(:active) {
+    background-color: $button-focus-color;
+  }
+
+  &:active {
+    background-color: $button-active-color;
+  }
+  & [class*="lnv-i"] {
+    vertical-align: middle;
+  }
+  &.lnv-btn_tr {
+    &:hover,
+    &:focus:not(:active),
+    &:active {
+      background-color: transparent;
+      color: lighten($button-secondary-color, 10%);
+    }
+  }
+}
+
+.lnv-btn_rounded {
+  border-radius: 50%;
+  font-size: $button-rounded-font-size;
+  height: $button-rounded-size;
+  margin: auto;
+  min-width: $button-rounded-size;
+  width: $button-rounded-size;
+  padding: 0;
+  overflow: hidden;
+  background: $button-primary-color;
+  box-shadow: $box-shadow-base;
+  position: relative;
+  line-height: normal;
+  & [class*="lnv-i"] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-($button-rounded-font-size / 2),-($button-rounded-font-size / 2));
+    line-height: $button-rounded-font-size;
+    width: $button-rounded-font-size;
+  }
+  &.lnv-btn_lg {
+    font-size: $button-rounded-font-size-lg;
+    height: $button-rounded-size-lg;
+    width: $button-rounded-size-lg;
+  }
+}
+
+.lnv-btn_colored {
+  color: $button-primary-text-color;
+  &:hover {
+    background-color: darken($button-primary-color, 10%);
+    color: $button-primary-text-color;
+  }
+
+  &:focus:not(:active) {
+    background-color: darken($button-primary-color, 10%);
+    color: $button-primary-text-color;
+  }
+
+  &:active {
+    background-color: darken($button-primary-color, 10%);
+    color: $button-primary-text-color;
+  }
+}
